@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+    <test name="Data base types tests">
+        <classes>
+            <class name="com.epam.cdpdb.beans.DBTypeDataTests" />
+        </classes>
+    </test>
+
+    <test name="Connection tests">
+        <classes>
+            <class name="com.epam.cdpdb.connectors.ConnectorsTests" />
+        </classes>
+    </test>
+
+    <test name="DAO tests">
+        <classes>
+            <class name="com.epam.cdpdb.dao.StationDaoTest" />
+        </classes>
+    </test>
+
+    <test name="Sub-tasks tests">
+        <classes>
+            <class name="com.epam.cdpdb.tasks.SubTasksTests" />
+        </classes>
+    </test>
+
+</suite>

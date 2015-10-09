@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.epam.cdpdb.dao.StationDaoTest" duration-ms="253" started-at="2015-10-07T17:10:26Z" finished-at="2015-10-07T17:10:26Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="253" started-at="2015-10-07T17:10:26Z" finished-at="2015-10-07T17:10:26Z">
+      <class name="com.epam.cdpdb.dao.StationDaoTest">
+        <test-method status="PASS" signature="checkFindAllUsingConnections(com.epam.cdpdb.enums.DataBaseTypes, com.epam.cdpdb.enums.ConnectionTypes)[pri:0, instance:com.epam.cdpdb.dao.StationDaoTest@15fa2291]" name="checkFindAllUsingConnections" duration-ms="221" started-at="2015-10-07T20:10:26Z" data-provider="dbSettings" finished-at="2015-10-07T20:10:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SERVER]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DBCP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFindAllUsingConnections -->
+        <test-method status="PASS" signature="checkFindAllUsingConnections(com.epam.cdpdb.enums.DataBaseTypes, com.epam.cdpdb.enums.ConnectionTypes)[pri:0, instance:com.epam.cdpdb.dao.StationDaoTest@15fa2291]" name="checkFindAllUsingConnections" duration-ms="1" started-at="2015-10-07T20:10:26Z" data-provider="dbSettings" finished-at="2015-10-07T20:10:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EMBEDDED]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DBCP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFindAllUsingConnections -->
+        <test-method status="PASS" signature="checkFindAllUsingConnections(com.epam.cdpdb.enums.DataBaseTypes, com.epam.cdpdb.enums.ConnectionTypes)[pri:0, instance:com.epam.cdpdb.dao.StationDaoTest@15fa2291]" name="checkFindAllUsingConnections" duration-ms="5" started-at="2015-10-07T20:10:26Z" data-provider="dbSettings" finished-at="2015-10-07T20:10:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SERVER]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JDBC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFindAllUsingConnections -->
+        <test-method status="PASS" signature="checkFindAllUsingConnections(com.epam.cdpdb.enums.DataBaseTypes, com.epam.cdpdb.enums.ConnectionTypes)[pri:0, instance:com.epam.cdpdb.dao.StationDaoTest@15fa2291]" name="checkFindAllUsingConnections" duration-ms="4" started-at="2015-10-07T20:10:26Z" data-provider="dbSettings" finished-at="2015-10-07T20:10:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EMBEDDED]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JDBC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFindAllUsingConnections -->
+      </class> <!-- com.epam.cdpdb.dao.StationDaoTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.epam.cdpdb.dao.StationDaoTest -->
+</testng-results>
